@@ -7,7 +7,7 @@
         <div>
             <h1><a href=""> DG Blog </a> </h1>
         </div>
-
+        <hr>
         <div>
             <p><em>23-07-2016, 15:44:02</em></p>
             <h3> Stay a  while and listen!</h3>
@@ -18,7 +18,10 @@
         <div>
             <h2><a href=""> What is next?! </a></h2>
             <p> Now we're all ofcourse wondering: What's next? Well, let me tell you this.<br /> We're havin' some <strong><em>awesome</em></strong> things lined up for you! <br />
-            <ul><li>Writing stuff</li><li>Creating stuff</li><li>Reading stuff!</li></ul>
+            <ul>
+                <li>Writing stuff</li>
+                <li>Creating stuff</li>
+                <li>Reading stuff!</li></ul>
             And of course many more! <em>(Games! Hint hint!)</em>
             </p>
             <p>
@@ -27,6 +30,20 @@
                 Myth
             </p>
         </div>
+        <hr>
+        <div>
+            <h1><a href="/">DG Posts</a></h1>
+        </div>
+
+        {% for post in posts %}
+            <div>
+                <hr>
+                <h2><a href="">{{ post.title }}</a></h1>
+                <p>published: {{ post.published_date }}</p>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
+
     </body>
 </html>
 
