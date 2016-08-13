@@ -1,0 +1,101 @@
+[
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "author": 1,
+        "title": "Djangogirls",
+        "text": "Group6 ^^",
+        "created_date": "2016-06-25T13:11:51Z",
+        "published_date": null
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "author": 1,
+        "title": "Confidence",
+        "text": "Stretch your hands up high/ Yes! That's  the empowered position a woman should have! ;)",
+        "created_date": "2016-06-25T13:12:27Z",
+        "published_date": null
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "author": 2,
+        "title": "Admin & Blog posts",
+        "text": "To log in, you need to create a superuser - a user which has control over everything on the site. Go back to the command-line and type python manage.py createsuperuser, and press enter. When prompted, type your username (lowercase, no spaces), email address, and password. Don't worry that you can't see the password you're typing in - that's how it's supposed to be. Just type it in and press enter to continue. The output should look like this (where username and email should be your own ones):\r\n\r\n(myvenv) ~/djangogirls$ python manage.py createsuperuser\r\nUsername: admin\r\nEmail address: admin@admin.com\r\nPassword:\r\nPassword (again):\r\nSuperuser created successfully.\r\nReturn to your browser. Log in with the superuser's credentials you chose; you should see the Django admin dashboard.\r\n\r\nDjango admin\r\n\r\nGo to Posts and experiment a little bit with it. Add five or six blog posts. Don't worry about the content - you can simply copy-paste some text from this tutorial to save time :).\r\n\r\nMake sure that at least two or three posts (but not all) have the publish date set. It will be helpful later",
+        "created_date": "2016-06-25T13:13:52Z",
+        "published_date": "2016-06-25T13:14:46Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "author": 1,
+        "title": "Sponsors",
+        "text": "Maykin Media\r\nMaykin Media focuses on the technology behind your website or webapplication. By specializing on Python and Django, we provide efficient and professional webdevelopment.\r\n\r\n Transip\r\nTransIP consists of adventurers. Ever thought of improving things just because you can? We are doing that since 2003 and that is the reason why we are the number one of The Netherlands.\r\n\r\n Tree62\r\nTree62 is an Amsterdam based small company specialised in clean, usable and beautiful design for web and offline.",
+        "created_date": "2016-06-25T13:15:09Z",
+        "published_date": "2016-06-25T11:15:35Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "author": 2,
+        "title": "Organisation",
+        "text": "Django Girls\r\nDjango Girls Amsterdam is part of a bigger initiative: Django Girls. It is a non-profit organization and events are organized by volunteers in different places of the world.\r\n\r\nTo see the source for the program, find us on GitHub: github.com/DjangoGirls.\r\n\r\nIf you want to bring Django Girls to your city, drop us a line.",
+        "created_date": "2016-06-25T13:16:21Z",
+        "published_date": "2016-06-25T08:16:39Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "author": 2,
+        "title": "=^-^=",
+        "text": "balloooons. And cats. Squeeee!",
+        "created_date": "2016-06-25T13:17:15Z",
+        "published_date": null
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "author": 1,
+        "title": "Sample title",
+        "text": "Test",
+        "created_date": "2016-08-13T10:49:08.928Z",
+        "published_date": "2016-08-13T11:26:47.552Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "author": 1,
+        "title": "Shell post 1",
+        "text": "First shell post.",
+        "created_date": "2016-08-13T10:51:17.720Z",
+        "published_date": null
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+        "author": 1,
+        "title": "Shell post 2",
+        "text": "Dont forget to iport Post!",
+        "created_date": "2016-08-13T10:51:45.209Z",
+        "published_date": null
+    }
+}
+]
